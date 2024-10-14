@@ -1,4 +1,153 @@
-h1 {
-  margin: 0; 
-  size: 12; 
+body{
+  margin: auto;
+  padding: auto;
+}
+
+li>img{
+  height:120px;
+  width: 120px;
+  float: left;
+}
+
+header{
+  height: 120px;
+  background-color: rgba(36, 0,0,255) ;
+}
+
+
+header>ul{
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  overflow: hidden;
+  background-color:rga(36,0,0,255);
+}
+
+header>ul>li>a{
+  display: block;
+  color: white;
+  text-align: center;  
+  padding: 48px 45px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header>ul>li{
+  float: left;
+}
+
+header>ul>li {
+  display: inline;
+
+}
+
+header>ul>li>a:hover{
+  background-color: rgba(60, 0,0,255) ;
+  font-size: 23px;
+}
+
+
+[class="News"]{
+  border-bottom-width:thin;
+  border-top-width:thin;
+  border-right-width: thin;
+  border-left-width: thin;
+  border-top-color: black ;
+  border-right-color: black;
+  border-left-color: black;
+  border-bottom-color: black;
+  direction: ltr;
+  unicode-bidi: normal;
+  margin-bottom: 5px;
+}
+
+.News::first-line{
+  font-size:25px;
+  text-align: center;
+
+}
+
+.News>p{
+  clear: none;
+}
+
+.Webtitle{
+  margin-top: 15px;
+  font-size: 50px;
+  margin-left: 40%;
+}
+
+.News>img{
+  float: right;
+  border-radius: 10px;
+  height: 300px;
+  width: 300px;
+}
+
+.News{
+  display: inline;
+  font-size: 20px;
+  border: 2px solid black;
+  float: right;
+  border-radius: 11px;
+}
+
+#info{
+  list-style-type: '-';
+}
+
+#info>li{
+  border-bottom: solid black 2px;
+  width: 425px;
+}
+
+.describe::first-line{
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.information>ul>li{
+  list-style: none;
+}
+
+.product>img{
+  height: 500px;
+  width: 500px;
+  float: left;
+}
+
+.name{
+  font-size: 40px !important;
+  font-weight: 500;
+  margin: 0 0 0 600px;
+  padding-top: 30px;
+}
+
+.product{
+  font-size: 25px;
+}
+.information{
+  margin: 0 0 0 560px;
+}
+.information>ul>li{
+  margin: 10px 0 0 0;
+}
+.information>ul{
+  margin: 0 0 60px 0;
+}
+.buybutton{
+  background-color: rgb(100, 166, 0);
+  text-decoration: none;
+  color: white;
+  padding: 30px 40px 30px 40px;
+  margin-top: 500px;
+  margin: 0 0 0 35px;
+  border: solid black 2px;
+  border-radius:10px;
 }
