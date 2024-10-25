@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Our Dev</title>
     <link rel="stylesheet" href="css/mycss.css">
 </head>
 <body>
@@ -18,7 +18,7 @@
     <hr> 
     <div>
     <h1 style="text-align: center;">Our Developer</h1>
-    <p>Привіт! Мене звати <b>Богдан</b>! <br> Я <s>початківець</s> junior веб-розробник, який створює унікальні сайти для бізнесу та особистого використання. Цей сайт є одним із моїх перших проектів, і я пишаюся тим, що можу поділитися з вами своєю роботою.
+    <p class="About_Me">Привіт! Мене звати <b>Богдан</b>! <br> Я <s>початківець</s> junior веб-розробник, який створює унікальні сайти для бізнесу та особистого використання. Цей сайт є одним із моїх перших проектів, і я пишаюся тим, що можу поділитися з вами своєю роботою.
     <br>  Моя мета – створювати зручні, сучасні та стильні веб-сторінки, які відповідають потребам моїх клієнтів. Я постійно вдосконалюю свої навички, освоюю нові технології та підходи до розробки, щоб кожен наступний проект був кращим за попередній.
     <br> Якщо вам потрібен сайт або у вас є ідеї, які ви хочете втілити в життя, не вагайтеся зв'язатися зі мною. Я завжди відкритий до нових викликів і готовий допомогти вам створити щось особливе.
     </p>
@@ -26,22 +26,30 @@
     <hr>
     <div></div>
     <h5 style="text-align: center;">Навички</h5>
-    <div>
+    <div class="Level">
         <img src="Photo/HTML.png" alt="HTML" height="100px">  
-        <p>Рівень:Junior</p>      
+        <label for="file">Рівень знаннь:</label>
+        <progress id="file" value="33" max="100"> junior </progress>
+         
     </div>
-    <div>
+    <div class="Level">
         <img src="Photo/CSS3.svg" alt="CSS3" height="100px">        
-        <p>Рівень:Junior</p>
+        <label for="file">Рівень знаннь:</label>
+        <progress id="file" value="33" max="100"> Junior </progress>
     </div>
-    <div>
+    <div class="Level">
         <img src="Photo/JavaScript.png" alt="JavaScript" height="100px">        
-        <p>Рівень:Intern</p>
+        <label for="file">Рівень знаннь:</label>
+        <progress id="file" value="16" max="100"> Intern </progress>
     </div>
     <hr>
     <h6 style="text-align: center;">Портфоліо</h6>
     <p>Відсутні роботи</p>
     <hr>
-
+    <footer style="background-color: black;">
+        <a href=""><img src="/Photo/insta.png" alt="Instagram" width="100px" height="100px"></a>
+        <a href=""><img src="/Photo/pin.png" alt="Pinterest" width="175px" height="100px"></a>
+        <a href=""><img src="/Photo/x.png" alt="Twitter" width="100px" height="100px"></a>
+   </footer>
 </body>
 </html>
