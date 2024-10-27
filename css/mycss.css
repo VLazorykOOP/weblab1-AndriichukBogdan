@@ -205,3 +205,70 @@ footer>a{
     text-align: left;
     vertical-align: top;
 }
+
+#profile_img{
+  float: left;
+  margin: 35px 0 0 580px;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+
+}
+#profile_img>a>img{
+  height: 50px;
+  width: 50px;
+  border: solid 2px whitesmoke  ;
+  border-radius: 50%;
+}
+
+#ProgressBar{
+  vertical-align: super;
+  margin: 50px 0 40px 100px;
+}
+
+#SingIn_all{
+  height: 500px;
+  width: 500px;
+  border: solid 3px black;
+  border-radius: 20px;
+  margin: 50px 0 0 330px;
+}
+
+#label2{
+  margin-left: 135px;
+}
+
+#SingIn_all{
+  padding: 0 0 0 150px;
+}
+
+input{
+  margin-bottom: 10px;
+}
+
+.gender>span{
+  font-size: larger;
+  font-weight: 600;
+}
+
+[value="Register"]{
+  margin-top: 10%;
+  margin-left: 35%;
+  font-size: larger;
+  background-color: greenyellow;
+  border: solid 1px black;
+  height: 50px;
+  width: 125px;
+}
+[type="reset"]{
+  font-size: larger;
+  background-color: rgb(155, 13, 13);
+  border: solid 1px black;
+  height: 50px;
+  width: 125px;
+}
+#comment{
+  height: 75px;
+  width: 500px;
+}

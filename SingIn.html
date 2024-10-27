@@ -7,10 +7,52 @@
     <link rel="stylesheet" href="/css/mycss.css">
 </head>
 <body>
-    <h2>Sign In</h2>
-    <form action="">
-        дякую за перегляд
-        Треба йти тпр мучати (
-    </form>
+    <header>
+        <ul>
+            <li><img src="Photo/10293358.jpg" alt="Logo" height="75px" width="75px"></li>
+            <li><a href="index.html"><span>Home</span></a></li>
+            <li><a href="News.html" ><span>News</span></a></li>
+            <li><a href="About.html" ><span>Adout Us</span></a></li>
+            <div id="profile_img"><a href="SingIn.html" ><img src="/Photo/Black.jpg" alt="Profile"></a></div>
+        </ul>
+    </header>
+    <div id="SingIn_all">
+        <div id="ProgressBar">
+            <h2>Step 1 out 3</h2>
+            <progress name="steps" id="steps" title="Step 1:" max="100" value="33"></progress>   
+        </div>
+        <form action="">   
+            <label for="UserName" id="label1">Name</label>
+            <label for="SurName" id="label2">Surname</label>
+            <br>
+            <input type="text" id="UserName" name= "UserName" placeholder="Enter your Name">
+            <input type="text" id="SurName" name= "SurName" placeholder="Enter your SurName">
+            <br>
+            <label for="telephone">Telephone</label>
+            <input type="tel" id="telephone" name="telephone" placeholder="+38 0** **** ** **" value="+380">
+            <br>
+            <div class="gender">
+            <span>Choose gender</span><br>
+            <input type="radio" id="Man" name="Gender" value="Man">
+            <label for="Man">Man</label>
+            <input type="radio" id="Woman" name="Gender" value="Woman">
+            <label for="Woman">Woman</label>
+            </div>
+            <br>
+            <label for="password">Enter password</label>
+            <input type="password" id="password" name="password" placeholder="Ender password">
+            <br>
+            <label for="password">Confirm password</label>
+            <input type="password" id="password" name="password" placeholder="Confirm password">
+            <br>
+            <input type="reset" value="Reset">
+            <input type="button" value="Register">
+        </form>
+    </div>
+    <footer style="background-color: black;">
+        <a href=""><img src="/Photo/insta.png" alt="Instagram" width="100px" height="100px"></a>
+        <a href=""><img src="/Photo/pin.png" alt="Pinterest" width="175px" height="100px"></a>
+        <a href=""><img src="/Photo/x.png" alt="Twitter" width="100px" height="100px"></a>
+   </footer>
 </body>
 </html>
